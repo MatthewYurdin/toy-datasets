@@ -1,0 +1,33 @@
+
+_dta:
+  1.  cbsa2fipsxw2013 set up by Jean Roth , jroth@nber.org , 15 Mar 2016
+  2.  Source Page: http://www.census.gov/population/metro/data/def.html
+  3.  Source File URL: www.census.gov/population/metro/files/lists/2013/List1.xls
+  4.  Source Workbook and Sheet: List1.xls workbook List 1 sheet
+
+  obs:         1,883                          
+ vars:            12                          15 Mar 2016 12:07
+ size:       483,931                          (_dta has notes)
+---------------------------------------------------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+---------------------------------------------------------------------------------------------------------------------
+cbsacode        str5    %9s                   CBSA Code
+metrodivisioncode
+                str5    %9s                   Metro Division Code
+csacode         str3    %9s                   CSA Code
+cbsatitle       str46   %46s                  CBSA Title
+metropolitanmicropolitanstatis
+                str29   %29s                  Metropolitan/Micropolitan Statistical Area
+metropolitandivisiontitle
+                str50   %50s                  Metropolitan Division Title
+csatitle        str58   %58s                  CSA Title
+countycountyequivalent
+                str28   %28s                  County/County Equivalent
+statename       str20   %20s                  State Name
+fipsstatecode   str2    %9s                   FIPS State Code
+fipscountycode  str3    %9s                   FIPS County Code
+centraloutlyingcounty
+                str8    %9s                   Central/Outlying County
+---------------------------------------------------------------------------------------------------------------------
+Sorted by: fipsstatecode  fipscountycode
